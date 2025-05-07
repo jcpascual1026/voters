@@ -1,0 +1,56 @@
+@import 'tailwindcss';
+@plugin '@tailwindcss/forms';
+@plugin '@tailwindcss/typography';
+
+body {
+    font-family: 'Open Sauce Sans', sans-serif;
+    color: black;
+    background-color: #E3E9F9;
+}
+
+@theme{
+    --color-back: #E3E9F9;
+    --color-greny: #02CC66;
+}
+
+.container{
+    background: white;
+    border-radius: 0.75rem;
+    margin-top: 1.5rem;
+    padding: 2rem 5rem 3rem 5rem;
+}
+
+.bottone5:hover,
+.bottone5:focus {
+ border-color: #02CC66;
+ box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+ color: #02CC66;
+ gap: 0,25rem;
+}
+
+.bottone5:hover {
+ transform: translateY(-1px);
+}
+
+.bottone5:active {
+ background-color: #02CC66;
+ border-color: rgba(0, 0, 0, 0.15);
+ box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px;
+ color: rgba(0, 0, 0, 0.65);
+ transform: translateY(0);
+}
+
+.bottone1:hover,
+.bottone1:focus {
+ box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+}
+
+.bottone1:hover {
+ transform: translateY(-1px);
+}
+
+.bottone1:active {
+ border-color: rgba(0, 0, 0, 0.15);
+ box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px;
+ transform: translateY(0);
+}
